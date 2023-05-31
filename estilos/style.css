@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+:root {
+    --fonte1: 'Bebas Neue', sans-serif;
+    --fonte2: 'Righteous', 'cursive';
+    --fonte3: 
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(68.15deg, #023743 16.62%, #02735E 85.61%);
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.216);
+    letter-spacing: 2px;
+    color: white;
+    
+}
+
+
+.apresentacao h1 {
+    font-family: var(--fonte1);
+    line-height: 0.86em;
+    font-size: 17em;
+}
+
+.apresentacao h2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-family: var(--fonte2);
+}
+
+.paragrafo-apresentacao {
+    display: flex;
+    justify-content: flex-end;
+    font-family: var(--fonte2);
+    font-size: 1em;
+}
+
+.web-links {
+    display: flex;
+    
+}
+
+.links {
+    display: flex;
+    padding-left: 5%;
+    align-items: end;
+    gap: 25px;
+    justify-content: end;
+} 
+
+.links a {
+    display: flex;
+    color: #01876e;
+    font-size: 4em;
+    margin-bottom: 9%;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+
+.icones-links {
+    display: inline;
+    justify-content: center;
+}
+  
+.links a:hover {
+    transform: translateY(-15px);
+}
+  
+.links:focus,
+.links:active {
+    transform: none;
+}
+
+.links span {
+    font-size: 0.9em;
+
+}
+
+
+  
