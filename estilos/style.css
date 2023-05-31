@@ -70,7 +70,7 @@ header {
 
 .links a {
     display: flex;
-    color: #00ffaa;
+    color: #00cdae;
     font-size: 4em;
     margin-bottom: 9%;
     transition: transform 0.3s ease;
@@ -96,7 +96,7 @@ header {
 }
 
 span {
-    color: #00ffaa;
+    color: #00cdae;
 }
 
 
