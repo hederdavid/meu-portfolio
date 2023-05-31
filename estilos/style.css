@@ -58,7 +58,6 @@ header {
 
 .web-links {
     display: flex;
-    
 }
 
 .links {
@@ -71,7 +70,7 @@ header {
 
 .links a {
     display: flex;
-    color: #01876e;
+    color: #00ffaa;
     font-size: 4em;
     margin-bottom: 9%;
     transition: transform 0.3s ease;
